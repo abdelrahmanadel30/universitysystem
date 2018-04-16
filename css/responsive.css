@@ -1,0 +1,182 @@
+/*media query for responsive*/
+/*start the responsive for div Statistics */
+@media (min-width: 320px) and (max-width: 765px){
+    .expertise h1{
+    font-size: 40px;
+    }
+}
+@media (min-width: 290px) and (max-width: 510px){
+    .team h1{
+     font-size:30px;    
+    
+    }
+}
+
+@media (min-width: 320px) and (max-width: 765px){
+    .Statistics h1{
+    font-size:40px; 
+    
+    }
+   
+    .rate{
+        margin-top:2%; 
+    }
+    .rate i{
+        font-size:45px; 
+    
+    }
+    .rate span{
+        margin-top: 2%;
+        font-size: 22px;
+    }
+    .rate p{
+        margin-top:1%; 
+    }
+}
+@media (min-width: 290px) and (max-width: 1100px){
+    .top{
+        left: 90%;    
+    
+    }
+  
+}
+/*end the responsive for div Statistics */
+
+/*#########################################################*/
+/*end the responsive for div staff*/
+@media (min-width: 290px) and (max-width: 700px){
+    .carousel-item p{
+        margin-top: 25px;
+        width: 86%;
+        text-align: center;
+        margin-left: 8%;
+        color: #c1c0c7;
+        font-family:Roboto-Black;
+        font-size: 15px;
+    }
+    
+    .carousel-item  i{
+        margin-top: 15%;
+        font-size: 20px;   
+
+}    
+    .carousel-item  img{
+        margin-left: 44%;
+        margin-top: 1%;
+        width:50px;
+        height:50px; 
+}
+    .carousel-item span{
+    margin-top: 2%;  
+    font-size:14px; 
+    margin-left: -2%;
+   }
+    
+}
+@media (min-width: 701px) and (max-width: 1013px){
+    .carousel-item span{
+        margin-left: 3%;
+   }
+}
+/*end the responsive for div staff*/
+/*#########################################################*/
+
+/*start the responsive for div footer*/
+@media (min-width: 290px) and (max-width: 790px){
+
+    .contactus{
+        padding-top: 10px;
+        text-align: center;    
+    
+    }
+    .contactus .logo p{
+        width: 84%;
+        margin-left: 8%;    
+         margin-top: 2%;
+    }
+    .contactus .logo i{
+        font-size:25px; 
+    }
+    .contactus .logo span{
+         font-size: 22px;
+    }
+    .contactus .logo ul{
+         margin-top: 1%;
+}
+    .contactus .logo li{
+        margin-left: 2%;
+    }
+
+    .contactus .address {
+        margin-top:5%; 
+
+}
+
+    .contactus .address hr{
+        margin-left:40%; 
+
+}
+
+    .contactus .address ul{
+        margin-top: 4%;
+
+}    
+    .contactus .Newsletter{
+        margin-top: 4%;
+        margin-left:1%;     
+    }
+    .contactus .Newsletter hr{
+        margin-left:40%; 
+    
+    }
+    .contactus .Newsletter p{
+        margin-top: 4%;
+        font-size: 17px;
+        width: 88%;   
+        margin-left:3%; 
+    }
+    .contactus .Newsletter input{
+        width: 80%;
+
+    }
+    .contactus .Newsletter button{
+
+        margin-left: 30%; 
+        margin-top: 3%;
+    }
+
+    
+}
+@media (min-width: 771px) and (max-width: 995px){
+    
+    .contactus .address{
+      margin-top:15%; 
+    }
+   
+    .contactus .address .social li {
+        margin-left:-1%;     
+     
+    }
+  
+    .contactus .Newsletter{
+       margin-top:15%; 
+    }
+  
+    .contactus .Newsletter button {
+        font-size:17px;
+        width: 48%;
+        padding: 3px;    
+    }
+    
+}
+/*#########################################################*/
+
+@media (min-width:290px) and (max-width: 600px){
+
+   .copyright a span{
+     
+        font-size:16px; 
+}
+
+}
+

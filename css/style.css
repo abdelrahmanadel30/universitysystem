@@ -1,0 +1,707 @@
+/* ##### ##### ##### ##### ##### ##### ##### ##### ##### #####  */
+
+/* Start University Navbar */
+
+.university_navbar {
+        background-color: transparent;
+        position: relative;
+        z-index: 10;
+        margin-bottom: -6%;
+}
+
+.university_navbar_header_logo {
+        background: -webkit-linear-gradient( #00e0d0, #00e0d0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        max-width: 10%;
+}
+
+.university_navbar_header_logo img {
+        width: 40%;
+}
+
+.university_navbar_item.active .university_navbar_link {
+        color: #00e0d0 !important
+}
+
+.university_navbar_item .university_navbar_link {
+        color: white !important;
+        font-size: 12pt;
+        font-weight: bold;
+        transition: all ease-out 0.3s
+}
+
+.university_navbar_item .university_navbar_link:hover {
+        color: #00e0d0 !important
+}
+
+/* End University Navbar */
+
+/* ##### ##### ##### ##### ##### ##### ##### ##### ##### #####  */
+
+/* Start University Carousel */
+
+.university_carousel_item::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to right, #09052f, #311d5e);
+        opacity: 0.85;
+        z-index: 5;
+}
+
+.university_carousel_caption {
+        position: absolute;
+        z-index: 10;
+        top: 30%;
+}
+
+.university_carousel_caption h5 {}
+
+.university_carousel_caption .line_sperate {
+        display: block;
+        background: #00e0d0;
+        height: 2px;
+        width: 7%;
+        margin: 2% auto;
+}
+
+.university_carousel_caption p {
+        font-size: 14pt;
+        margin: 3% 0 5% 0;
+}
+
+.university_carousel_caption .university_carousel_learn_more {
+        background: transparent;
+        padding: 1%;
+        border: 2px solid #00e0d0;
+        color: #00e0d0;
+        font-weight: bold;
+        background: transparent;
+        padding: 1%;
+        border: 2px solid #00e0d0;
+        color: #00e0d0;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+.university_carousel_indicators li {
+        -ms-flex: 0 1 auto;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: transparent;
+        border: 1px solid #fff;
+}
+
+.university_carousel_indicators .active {
+        background-color: #00e0d0;
+        border: 1px solid #00e0d0;
+}
+
+/* End University Carousel */
+
+/* ##### ##### ##### ##### ##### ##### ##### ##### ##### #####  */
+
+/* ##### ##### ##### ##### ##### ##### ##### ##### ##### #####  */
+
+/* Start Hazem */
+
+body {
+        font-family: 'cairo', sans-serif;
+}
+
+.our_story {
+        overflow: hidden;
+        padding: 50px 0;
+}
+
+.our_story h3 {
+        font-weight: bold;
+}
+
+.our_story p {
+        font-size: 13px;
+        padding: 0 30% 0 0;
+        line-height: 1.8;
+        margin-bottom: 20px
+}
+
+.our_story button {
+        background: none;
+        border: 2px solid #00e0d0;
+        color: #00e0d0;
+        padding: 5px 10px;
+        font-size: 15px;
+        font-weight: bold;
+}
+
+.fullscreen-bg {
+        position: relative;
+}
+
+.video {
+        margin: 1em auto;
+        display: block;
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+}
+
+.video:hover+.video-control {
+        opacity: 0.2;
+}
+
+.video-control {
+        font-size: 4em;
+        opacity: 0;
+        transition: opacity 0.3s;
+        color: #ffffff;
+        text-align: center;
+        transition: all ease-out 0.3s
+}
+
+.video-control:hover {
+        opacity: 1;
+        color: #ffffff;
+}
+
+.video-control:before, .video-control:after {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 50%;
+        left: 50%;
+        margin: -0.5em 0 0 -0.5em;
+        border: 3px solid white;
+        border-radius: 50%;
+        padding: 0px 23px;
+}
+
+.video-control:before {
+        content: '\25BA';
+}
+
+.video-control:after {
+        content: 'll';
+        font-weight: 700;
+}
+
+.video-control.paused:after {
+        opacity: 0;
+}
+
+.video-control.playing:before {
+        opacity: 0;
+}
+
+/* End Hazem */
+
+/* ##### ##### ##### ##### ##### ##### ##### ##### ##### #####  */
+
+/* Start Kareem */
+
+body {
+        padding: 0px;
+        margin: 0px;
+}
+
+@font-face {
+        font-family: Lato-Regular;
+        src: url('../fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+        font-family: Roboto-Black;
+        src: url('../fonts/Roboto-Black.ttf');
+}
+
+/*##################################*/
+
+/*div expertise style*/
+
+.expertise {
+        padding-top: 50px;
+        padding-top: 50px;
+        text-align: center;
+        font-family: Lato-Regular;
+}
+
+.expertise h1 {
+        font-size: 50px;
+}
+
+.expertise hr {
+        width: 118px;
+        height: 2px;
+        background-color: #0d2d62;
+}
+
+.expertise p {
+        margin-top: 2%;
+        color: #72797d;
+        font-size: 16px;
+}
+
+.projects {
+        margin-top: 5%;
+        border: 1px solid #ddd;
+        padding: 25px;
+}
+
+.projects i {
+        font-size: 45px;
+        color: #0d2d62;
+}
+
+.projects h4 {
+        font-size: 19px;
+        margin-top: 5%;
+        font-weight: bold;
+}
+
+.projects p {
+        font-size: 17px;
+        margin-top: 4%;
+}
+
+/*div expertise style*/
+
+/*####################################*/
+
+/*div team style*/
+
+.team {
+        width: 100%;
+        height: 600px;
+        background-image: url("../images/teamcover.jpg");
+        background-position: 50% 50%;
+        background-size: cover;
+        margin-top: 5%;
+        text-align: center;
+        font-family: Lato-Regular;
+}
+
+.team .opcity {
+        width: 100%;
+        height: 600px;
+        background-color: rgba(32, 28, 63, 0.7);
+}
+
+.team h1 {
+        color: #edecef;
+        font-size: 50px;
+        font-weight: bold;
+        padding-top: 2%;
+}
+
+.team p {
+        color: #ffffff;
+        margin-top: 1%;
+        font-size: 18px;
+}
+
+/*#######################################*/
+
+/*div statistics style*/
+
+.Statistics {
+        padding-top: 50px;
+        text-align: center;
+        font-family: Lato-Regular;
+}
+
+.Statistics h1 {
+        font-size: 50px;
+}
+
+.Statistics hr {
+        width: 118px;
+        height: 2px;
+        background-color: #0d2d62;
+}
+
+.Statistics p {
+        margin-top: 3%;
+        width: 59%;
+        margin-left: 19%;
+        color: #72797d;
+}
+
+.rate {
+        margin-top: 15%;
+}
+
+.rate i {
+        color: #0d2d62;
+        font-size: 65px;
+}
+
+.rate span {
+        display: block;
+        color: #b80924;
+        margin-top: 7%;
+        font-size: 30px;
+        font-weight: bold;
+}
+
+.rate p {
+        color: black;
+        font-size: 17px;
+        margin-top: 7%;
+        font-weight: bold;
+        margin-left: 21%;
+}
+
+/*#######################################################*/
+
+/*start the style for div staff*/
+
+.staff {
+        margin-top: 4%;
+        width: 100%;
+        height: 500px;
+        background-image: url("../images/cover.jpg");
+        background-size: cover;
+}
+
+.overlay {
+        width: 100%;
+        height: 500px;
+        background-color: rgba(32, 28, 63, 0.7);
+}
+
+.carousel-item-staff i {
+        color: white;
+        margin-top: 11%;
+        margin-left: 47%;
+        font-size: 24px;
+}
+
+.carousel-item-staff p {
+        margin-top: 13px;
+        width: 84%;
+        text-align: center;
+        margin-left: 8%;
+        color: #edecef;
+        font-family: Roboto-Black;
+        font-size: 18px;
+}
+
+.carousel-item-staff img {
+        margin-left: 45%;
+        margin-top: 1%;
+        border-radius: 50%;
+}
+
+.carousel-item-staff span {
+        display: block;
+        text-align: center;
+}
+
+.carousel-item-staff span {
+        color: white;
+        margin-top: 2%;
+        font-weight: bold;
+        font-family: Roboto-Black;
+        font-size: 18px;
+        margin-left: -2%;
+}
+
+.carousel-control-next-icon {
+        margin-left: 40%;
+}
+
+.carousel-control-prev-icon {
+        margin-right: 40%;
+}
+
+/*end the style for div staff*/
+
+/*#######################################################*/
+
+/*start the style for map*/
+
+.map {
+        width: 100%;
+        height: 400px;
+}
+
+/*end the style for map*/
+
+/*#######################################################*/
+
+/*start div for footer*/
+
+.contactus {
+        width: 100%;
+        padding-top: 50px;
+        background-image: url(../images/contact.jpg);
+        font-family: Lato-Regular;
+        background-repeat: no-repeat;
+        position: relative;
+}
+
+.contactus:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        opacity: 0.85;
+        background-image: linear-gradient( 0deg, rgb(9, 5, 47) 0%, rgb(49, 29, 94) 100%);
+}
+
+.contactus_container {
+        position: relative;
+        z-index: 10;
+}
+
+/*the left div in the footer*/
+
+.contactus .logo {
+        margin-top: 5%;
+        color: white;
+        margin-left: -8%;
+}
+
+.contactus .logo span {
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+}
+
+.contactus .logo a {
+        text-decoration: none;
+}
+
+.contactus .logo i {
+        font-size: 30px;
+        color: #fff;
+        margin-right: 1%;
+}
+
+.contactus .logo p {
+        width: 69%;
+        margin-top: 9%;
+        font-size: 18px;
+        color: #fff;
+}
+
+.contactus .logo ul {
+        margin-left: -14%;
+        margin-top: 8%;
+}
+
+.contactus .logo li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 4%;
+        margin-top: 5%;
+        font-size: 17px;
+}
+
+.contactus .logo li a {
+        text-decoration: none;
+        color: #fff;
+        transition: all .4s ease-in-out;
+        opacity: 0.4;
+}
+
+.contactus .logo li a:hover {
+        opacity: 1;
+}
+
+/*the center div in the footer*/
+
+.contactus .address {
+        margin-top: 5%;
+        margin-left: -2%;
+}
+
+.contactus .address hr {
+        width: 94px;
+        height: 2px;
+        background-color: #b80924;
+        margin-right: 81%;
+}
+
+.contactus .address a {
+        text-decoration: none;
+}
+
+.contactus .address h3 {
+        color: #fff;
+        font-size: 25px;
+}
+
+.contactus .address ul {
+        margin-top: 8%;
+        margin-left: -10%;
+}
+
+.contactus .address ul li {
+        list-style: none;
+        margin-top: 4%;
+}
+
+.contactus .address ul li span {
+        margin-left: 2%;
+        color: #fff;
+}
+
+.contactus .address ul li i {
+        font-size: 20px;
+        color: #fff;
+}
+
+.contactus .address ul li i:hover {
+        color: #b80924;
+}
+
+.contactus .Newsletter .social {
+        margin: 4% 0;
+        text-align: left;
+        padding: 0;
+}
+
+.contactus .Newsletter .social li {
+        display: inline-block;
+        margin-right: 3%;
+}
+
+.contactus .Newsletter .social li i {
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 14pt;
+        transition: all .4s ease-in-out;
+        width: 40px;
+        line-height: 2;
+        height: 40px;
+}
+
+.contactus .Newsletter .social li i:hover {
+        background-color: #b80924;
+        color: #ffffff;
+}
+
+/*the right div in footer*/
+
+.contactus .Newsletter {
+        margin-top: 5%;
+        margin-left: 20%;
+}
+
+.contactus .Newsletter hr {
+        width: 94px;
+        height: 2px;
+        background-color: #b80924;
+        margin-right: 81%;
+}
+
+.contactus .Newsletter h3 {
+        color: #fff;
+        font-size: 25px;
+}
+
+.contactus .Newsletter a {
+        text-decoration: none;
+}
+
+.contactus .Newsletter p {
+        color: #fff;
+        margin-top: 10%;
+        font-size: 17px;
+        width: 107%;
+}
+
+.contactus .Newsletter input {
+        padding: 7px;
+        width: 75%;
+        background: none;
+        border: 1px solid #fff;
+        color: white;
+}
+
+.contactus .Newsletter .newsletter_subscribe {
+        display: inline-block;
+        text-decoration: none;
+        width: 22%;
+        padding: 5px;
+        font-size: 15pt;
+        vertical-align: middle;
+        color: #000;
+        background: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        transition: all ease-out 0.3s;
+}
+
+.contactus .Newsletter button:hover {
+        background-color: #b80924;
+}
+
+/*end div for footer*/
+
+/*#######################################################*/
+
+/*start div .copyright*/
+
+.copyright {
+        width: 100%;
+        padding: 14px;
+        text-align: center;
+        background-color: #0d2d62;
+        margin-top: 4%;
+        font-family: Lato-Regular;
+}
+
+.copyright a {
+        text-decoration: none;
+}
+
+.copyright a span {
+        color: white;
+        font-size: 19px;
+}
+
+/*#######################################*/
+
+/*the div for scroll*/
+
+.top {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        background-color: #b80924;
+        border-radius: 100px;
+        text-align: center;
+        line-height: 5;
+        left: 95%;
+        top: 81%;
+        display: none;
+        position: fixed;
+        cursor: pointer;
+}
+
+.top i {
+        color: white;
+        font-size: 43px;
+}
+
+.top:hover {
+        background-color: #0d2d62;
+}
+
+/*#######################################*/
+
+/* End Kareem */
+
+/* ##### ##### ##### ##### ##### ##### ##### ##### ##### #####  */
